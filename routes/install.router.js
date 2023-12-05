@@ -1,6 +1,7 @@
 import express from 'express'
 import sequelize from '../config/sequelize.config.js'
 import Song from '../models/song.model.js'
+import ArtistModel from '../models/artist.model.js'
 
 const router = express.Router()
 
