@@ -1,5 +1,5 @@
 import express from 'express'
-import sequelize from '../config/sequelize.config'
+import sequelize from '../config/sequelize.config.js'
 import Song from '../models/song.model.js'
 
 const router = express.Router()
